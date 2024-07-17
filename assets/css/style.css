@@ -76,7 +76,7 @@ body{
 }
 
 .header-burger {
-    display: none;
+    /* display: none; */
 }
 
 
@@ -387,6 +387,52 @@ footer h3 {
     color: #FFFFFF;
     margin-top: 20px;
 }
+
+/* MODAL */
+#modal{
+	position: fixed;
+	left: 0px;
+	top: 0px;
+	background-color: rgba(88, 48, 43, 0.67);
+	width: 100%;
+	height: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	/* display: none; */
+	margin-top: -1500px;
+	transition: all 1s ease;
+}
+
+.modal_window{
+	background-color: rgba(226, 203, 173, 1);
+	/* padding: 10px; */
+	width: 1080px;
+}
+.mod_cont{
+	margin: 0 10px 10px;
+}
+#modal:target{
+	margin-top: 0px;
+}
+
+.modal-head {
+    background-color: rgba(219, 191, 155, 0.89);
+    padding: 22px 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.modal-logo {
+    width: 180px;
+    height: 60px;
+}
+
+.modal-nav {
+    
+}
+
 
 @media (max-width: 1400px) {
     .banner-wrapper {
