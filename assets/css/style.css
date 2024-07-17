@@ -473,7 +473,7 @@ footer h3 {
         font-size: 18px;
         margin-top: 30px;
         width: 270px;
-        padding: 15px 10px;
+        padding: 15px 0px;
     }
 }
 
@@ -563,7 +563,7 @@ footer h3 {
     }
 
     .alider-text button:hover {
-        padding: 15px 5px;
+        padding: 15px 0px;
     }
 
     .events-title h2{
@@ -645,7 +645,7 @@ footer h3 {
         font-size: 16px;
         margin-top: 30px;
         width: 200px;
-        padding: 10px 20px;
+        padding: 15px 0px;
     }
 
     .chapter {
@@ -734,11 +734,11 @@ footer h3 {
         font-size: 12px;
         margin-top: 30px;
         width: 150px;
-        padding: 10px 0px;
+        padding: 15px 0px;
     }
 
     .alider-text button:hover {
-        padding: 15px 5px;
+        padding: 15px 0px;
     }
 
     footer {
